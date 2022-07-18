@@ -88,17 +88,18 @@ body {
 	background: linear-gradient(90deg, #7145cc 0%, #00feff 100%) !important; 
 }
 .btn-roxo {
-	background: #4400ff;
-	color:  #fff;
+	background: #00feff;
+	color:  #080122;
 	font-weight:  700;
-	border:  1px solid #4400ff;
+	border:  none;
 	letter-spacing: 2px;
 	transition: 0.4s;
 }
 .btn-roxo:hover {
-	background: transparent;
-	color:  #fff;
-	border-color:  #fff;
+	background: #7145cc;
+	background: linear-gradient(90deg, #7145cc 0%, #00feff 100%) !important; 
+	color:  #080122;
+	border: none;
 	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 .text-gradient {
@@ -211,8 +212,8 @@ body {
 		font-size: 12px !important;
 	}
 	.btn-roxo.btn-lg {
-		font-size:  10px !important;
-		padding: 5px;
+		font-size:  13px !important;
+		padding: 5px 10px;
 	}
 
 	#convidados h3 {
